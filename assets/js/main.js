@@ -46,6 +46,7 @@ $(document)
     return false;
 })
 // LOGIN
+$(document)
 .on("submit", "form.js-login", function(event) {
     event.preventDefault();
 
@@ -70,7 +71,7 @@ $(document)
 
     $.ajax({
         type: 'POST',
-        url: (_form.hasClass('js-login') ? '/ajax/login.php' : '/ajax/register.php'),
+        url: '/ajax/login.php',
         data: dataObj,
         dataType: 'json',
         async: true,
@@ -80,7 +81,7 @@ $(document)
         if(data.redirect !== undefined) {
             window.location = data.redirect;
         } else if(data.error !== undefined) {
-            _error.text(data.error).show();
+            _error.html(data.error).show();
         }
     })
     .fail(function ajaxFailed(e) {

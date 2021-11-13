@@ -21,18 +21,18 @@
 <body>
     <div class="uk-section uk-container">
         <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-            <form action="#" class="uk-form-stacked js-login">
+            <form class="uk-form-stacked js-login">
                 <h2>Login</h2>
                 <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-text">Username</label>
+                    <label class="uk-form-label" for="form-stacked-text username">Username</label>
                     <div class="uk-form-controls">
-                        <input type="text" required id="username" placeholder="Username" class="uk-input">
+                        <input type="text" required id="username" name="username" placeholder="Username" class="uk-input">
                     </div>
                 </div>
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-text">Password</label>
                     <div class="uk-form-controls">
-                        <input type="Password" required id="password" placeholder="Password" class="uk-input">
+                        <input type="Password" required id="password" name="password" placeholder="Password" class="uk-input">
                     </div>
                 </div>
 
@@ -40,9 +40,7 @@
                     <button class="uk-button uk-button-default" type="submit">Login</button>
                 </div>
 
-                <div class="uk-margin uk-alert uk-alert-danger js-error" style="display: none;">
-                    
-                </div>
+                <div class="uk-margin uk-alert uk-alert-danger js-error" style="display: none;"></div>
                 
             </form>
         </div>
