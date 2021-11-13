@@ -1,3 +1,12 @@
+<?php
+
+    // allow the config
+    define('__CONFIG__', true);
+    // require the config
+    require_once 'inc/config.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,34 +20,20 @@
 </head>
 <body>
     <div class="uk-section uk-container">
-        <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-            <form action="#" class="uk-form-stacked js-login">
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-text">Username</label>
-                    <div class="uk-form-controls">
-                        <input type="text" required id="form-stacked-text" placeholder="Username" class="uk-input">
-                    </div>
-                </div>
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-text">Password</label>
-                    <div class="uk-form-controls">
-                        <input type="Password" required id="form-stacked-text" placeholder="Password" class="uk-input">
-                    </div>
-                </div>
+        <?php
+            echo "Hello world, today is:<br>";
+            echo date("Y M D");
+        ?>
 
-                <div class="uk-margin">
-                    <button class="uk-button uk-button-default" type="submit">Login</button>
-                </div>
-                
-            </form>
-        </div>
+        <p>
+            <a href="/login.php">Login</a>
+            <a href="/register.php">Register</a>
+        </p>
     </div>
 
-    <!-- jQuery is required -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit-icons.min.js"></script>
+    <?php require "inc/footer.php"; ?>
+
+    
     
 </body>
 </html>
