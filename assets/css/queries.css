@@ -1,0 +1,198 @@
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .preview-tentang p {
+        width: 90%;
+        margin: 1% auto;
+    }
+
+    .preview-tentang h2 {
+        margin-top: 30px;
+    }
+
+    .row-btn {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .row-btn h2 {
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .hero-text-box {
+        margin-left: -50px;
+    }
+
+    .hero-text-box h1 {
+        text-align: center;
+    }
+
+    .hero-text-box ul li {
+        transform: scale(0.7);
+    }
+
+    .hero-logo {
+        margin-left: 180px;
+        height: 200px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .logo,
+    .main-nav {
+        display: none;
+    }
+    
+    .video-budaya {
+        width: 300px;
+    }
+
+    .enamFoto {
+        margin: 0;
+    }
+
+    .barisan-1,
+    .barisan-2 {
+        margin-left: -15px;
+    }
+
+    .footer-nav li {
+        margin-bottom: 10px;
+    }
+
+    .footer-nav::after {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .hero-text-box,
+    .row {
+        padding: 0 6%;
+    }
+
+    h1 {
+        padding-left: 35px;
+    }
+
+    .hero-logo {
+        margin: 0 auto;
+        display: block;
+        margin-left: 160px;
+    }
+
+    .hero-text-box h3 {
+        margin: 0 auto;
+        margin-left: 162px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .video-budaya {
+        width: 190px;
+    }
+
+    .section-video {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .tentang-1,
+    .tentang-2 {
+        transform: scale(0.8);
+    }
+
+    .tentang-1 {
+        font-size: 20px;
+    }
+
+    .tentang-budaya {
+        height: 500px;
+    }
+
+    .foto-1,
+    .foto-2,
+    .foto-3,
+    .foto-4,
+    .foto-5,
+    .foto-6 {
+        padding-bottom: 20px;
+        padding-right: 15px;
+    }
+
+    .btn {
+        transform: scale(0.85);
+        border-radius: 4px;
+    }
+
+    .btn h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 260px;
+        margin-top: 0;
+    }
+
+    .footer-row {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer-nav {
+        margin-top: 30px;
+    }
+
+    .footer-nav::after {
+        width: 300px;
+    }
+
+    .footer-nav li {
+        font-size: 20px;
+        margin-bottom: 15px;
+        display: block;
+    }
+}

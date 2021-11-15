@@ -1,0 +1,261 @@
+/* -------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: rgb(32, 32, 32);
+    font-family: 'Barlow', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* -------------------------------------- */
+/* NO SELECT */
+/* -------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+p {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* -------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------------- */
+
+.row {
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+/* -------------------------------------- */
+/* HEADINGS */
+/* -------------------------------------- */
+
+h1 {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* -------------------------------------- */
+/* HEADER */
+/* -------------------------------------- */
+
+header {
+    background-image: linear-gradient(#017d49c5, #017d49c5), url(img/gedung-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header-row {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 900px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1 {
+    font-size: 130px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.hero-text-box ul {
+    margin-left: 100px;
+    list-style: none;
+}
+
+.hero-text-box ul li {
+    display: inline-block;
+}
+
+.hero-logo {
+    height: 153px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 40px;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+    float: left;
+    margin-top: -80px;
+    justify-content: right;
+}
+
+.main-nav li {
+    margin-left: 29px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 85%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #F8FE03;
+}
+
+/* -------------------------------------- */
+/* SECTIONS */
+/* -------------------------------------- */
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: max-content;
+}
+
+.col {
+    padding: 0;
+    max-width: max-content;
+}
+
+.fotoSatu,
+.fotoDua,
+.fotoTiga {
+    height: 320px;
+}
+
+.fotoTiga {
+    height: 294.5px;
+}
+
+.fotoEmpat {
+    height: 474.5px;
+}
+
+.fotoLima {
+    height: 436px;
+}
+
+.fotoEnam {
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 151px;
+}
+
+.tulisanSatu,
+.tulisanDua,
+.tulisanTiga {
+    margin: 0;
+    justify-content: center;
+    text-align: justify;
+    margin: 40px 40px
+}
+
+.tulisanSatu {
+    margin-top: 80px;
+}
+
+.tulisanDua {
+    margin-top: 60px;
+}
+
+.tulisanTiga {
+    margin: 30px 40px;
+}
+
+/* -------------------------------------- */
+/* FOOTER */
+/* -------------------------------------- */
+
+footer {
+    background-color: #017d49;
+    height: 170px;
+    padding: 0;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-left: 29px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 85%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #fcff5d;
+}
+
+.footer-nav::after {
+    display: block;
+    height: 2px;
+    background-color: #F8FE03;
+    content: " ";
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-credit {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.footer-credit p {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: max-content;
+    font-size: 15px;
+}

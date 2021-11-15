@@ -1,0 +1,347 @@
+@media only screen and (min-width: 1200px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    .fotoSatu,
+    .fotoDua,
+    .fotoTiga {
+        height: 270px;
+    }
+    
+    .fotoEmpat {
+        height: 400.5px;
+    }
+    
+    .fotoLima {
+        height: 400px;
+    }
+    
+    .fotoEnam {
+        height: 365px;
+        margin-left: 150px;
+        margin-right: 150.5px;
+        margin-top: 30px;
+    }
+
+    .tulisanSatu,
+    .tulisanDua,
+    .tulisanTiga {
+        font-size: 16.5px;
+        margin: 0;
+        justify-content: center;
+        text-align: justify;
+        margin: 10px 30px
+    }
+
+    .tulisanSatu {
+        margin-top: 70px;
+    }
+
+    .tulisanDua {
+        margin-top: 50px;
+    }
+
+    .tulisanTiga {
+        font-size: 16.5px;
+        margin: 7px 30px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .header-row {
+        padding: 0 4%;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .tulisanDua {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .fotoSatu,
+    .fotoTiga {
+        height: 230px;
+    }
+
+    .fotoDua,
+    .fotoEmpat {
+        display: none;
+    }
+
+    .fotoEnam,
+    .fotoLima {
+        height: 311.5px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    body {
+        font-size: 17px;
+    }
+    
+    .header-row {
+        padding: 0 4%;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .header-row ul {
+        font-size: 15px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .fotoSatu,
+    .fotoTiga,
+    .fotoEmpat,
+    .fotoLima {
+        width: 768px;
+        height: auto;
+        transform: scale(0.9);
+        margin-top: 30px;
+    }
+
+    .fotoLima {
+        margin-bottom: 30px;
+    }
+
+    .fotoDua {
+        display: none;
+    }
+
+    .tulisanSatu,
+    .tulisanDua,
+    .tulisanTiga {
+        margin: 30px 60px;
+    }
+
+    .tulisanDua {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    
+    .header-row {
+        padding: 0 4%;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .header-row ul {
+        margin-top: -350px;
+        display: block;
+        font-size: 18px;
+    }
+
+    .header-row ul li {
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin-left: 170px;
+        margin-top: 250px;
+        height: 150px;
+    }
+
+    .main-nav li {
+        margin: 0;
+        margin-left: 16px;
+        margin-right: 12px;
+        margin-bottom: 5px;
+    }
+
+    .hero-text-box {
+        height: 300px;
+        margin-top: 250px;
+        padding-bottom: 50px;
+    }
+
+    .hero-text-box h1 {
+        margin: 0;
+        font-size: 70px;
+    }
+
+    .fotoSatu,
+    .fotoDua,
+    .fotoTiga,
+    .fotoEmpat,
+    .fotoLima {
+        width: 492px;
+        height: auto;
+        margin-top: 30px;
+        transform: scale(0.9);
+    }
+
+    .fotoEnam {
+        margin: 0 auto;
+        margin-left: 45px;
+    }
+
+    .fotoLima {
+        margin-bottom: 30px;
+    }
+
+    .fotoDua {
+        display: none;
+    }
+
+    footer {
+        height: 300px;
+    }
+
+    footer div {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .footer-row {
+        width: max-content;
+        padding: 0;
+    }
+
+    .footer-nav {
+        margin-top: 20px;
+    }
+
+    .footer-nav::after {
+        width: 410px;
+    }
+
+    .footer-row ul li {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row,
+    .col {
+        width: 100%;
+    }
+    
+    .header-row {
+        padding: 0 8%;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .logo {
+        margin-top: 300px;
+        margin-left: 130px;
+        height: 120px;
+    }
+
+    .main-nav {
+        margin-right: 60px;
+        margin-top: -330px;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .main-nav li {
+        margin: 0;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 18px;
+    }
+
+    .hero-text-box {
+        width: 414px;
+        height: 300px;
+        margin-top: 250px;
+        padding-bottom: 50px;
+    }
+
+    .hero-text-box h1 {
+        margin: 0;
+        font-size: 50px;
+    }
+
+    .tulisanSatu,
+    .tulisanDua,
+    .tulisanTiga {
+        font-size: 16px;
+        width: 300px;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .fotoSatu,
+    .fotoDua {
+        width: 414px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .fotoTiga {
+        margin: 0 auto;
+        width: 414px;
+        height: auto;
+    }
+
+    .fotoEmpat,
+    .fotoEnam {
+        width: 414px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .fotoLima {
+        width: 414px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .fotoEnam {
+        margin: 0;
+        margin-left: 20px;
+        width: 350px;
+        height: auto;
+    }
+
+    footer {
+        height: 300px;
+    }
+
+    footer div {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .footer-row {
+        width: max-content;
+        padding: 0;
+    }
+
+    .footer-nav::after {
+        width: 300px;
+    }
+
+    .footer-row ul li {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

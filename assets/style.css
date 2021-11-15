@@ -1,0 +1,76 @@
+/*
+    ijo= #017D49
+    kuning= #F8FE03
+*/
+
+
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: #017D49;
+    color: white;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+nav h4 {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.container-sm {
+    max-width: 500px;
+    margin-top: 150px;
+}
+
+.card-header {
+    background-color: #017D49;
+}
+
+.card-header h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+label {
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.btn {
+    background-color: #017D49;
+    transition: color, background-color 0.2s;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn:hover {
+    color: #017D49;
+    background-color: #F8FE03;
+}
+
+.avatar-ctn {
+    background-color: orange;
+    text-align: center;
+}
+
+.avatar {
+    width: 50%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

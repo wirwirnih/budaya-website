@@ -8,6 +8,6 @@
     setcookie(session_name(), '', 0, '/');
     session_regenerate_id(true);
 
-    header("location: /login.php");
+    header("location: /login");
 
 ?>

@@ -3,7 +3,7 @@
     // allow the config
     define('__CONFIG__', true);
     // require the config
-    require_once "inc/config.php"; 
+    require_once "inc/config.php";
 
     ForceDashboard();
 ?>
@@ -17,37 +17,58 @@
     <title>Perguruan Budaya</title>
 
     <base href="/" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-    <div class="uk-section uk-container">
-        <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-            <form class="uk-form-stacked js-register">
-                <h2>Register</h2>
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-text username">Username</label>
-                    <div class="uk-form-controls">
-                        <input type="text" required id="username" name="username" placeholder="Username" class="uk-input">
-                    </div>
-                </div>
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-text">Password</label>
-                    <div class="uk-form-controls">
-                        <input type="Password" required id="password" name="password" placeholder="Password" class="uk-input">
-                    </div>
-                </div>
+    <nav>   
+        <h4>Perguruan Budaya</h4>
+    </nav>
 
-                <div class="uk-margin">
-                    <button class="uk-button uk-button-default" type="submit">Register</button>
-                </div>
+    <div class="container-sm align-self-center">
+        <div class="card">
+            <div class="card-header">
+                <h4>Authentication</h4>  
+            </div>
+            <div class="card-body">
+                <form class="uk-form-stacked js-register">
+                    <div class="mb-2">
+                        <label for="username" class="form-label"></label>
+                        <div class="uk-form-controls">
+                            <input type="text" required id="username" name="username" placeholder="Username" class="form-control">
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                        <label for="password" class="form-label"></label>
+                        <div class="form-controls">
+                            <input type="Password" required id="password" name="password" placeholder="Password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label"></label>
+                        <div class="form-controls">
+                            <input type="Password" required id="password" name="password" placeholder="Confirm Password" class="form-control">
+                        </div>
+                    </div>
 
-                <div class="uk-margin uk-alert uk-alert-danger js-error" style="display: none;"></div>
-                
-            </form>
+                    <div class="uk-margin">
+                        <button type="submit" class="btn btn-primary mb-2">Register</button>
+                    </div>
+
+                    <div class="uk-margin uk-alert uk-alert-danger js-error" style="display: none;"></div>
+                    
+                </form>
+            </div>
         </div>
     </div>
 
-    <?php include "inc/footer.php"; ?>
+    <div class="uk-section uk-container">
+        <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
+            
+        </div>
+    </div>
+
+    <?php require_once "inc/footer.php"; ?>
 
     
     

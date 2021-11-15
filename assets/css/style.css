@@ -1,0 +1,361 @@
+/* -------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: rgb(32, 32, 32);
+    font-family: 'Barlow', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+/* -------------------------------------- */
+/* NO SELECT */
+/* -------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+p {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* -------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* --------------- HEADINGS --------------*/
+h1 {
+    margin: 0 auto;
+    color: white;
+    font-size: 500px;
+}
+
+h2 {
+    font-size: 200%;
+    word-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+    font-size: 85%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-left: 165px;
+}
+
+p {
+    color: white;
+    width: 650px;
+}
+
+.tulisan-besar {
+    font-size: 120%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.tulisan-kecil {
+    font-size: 90%;
+    font-weight: 500;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+
+/* --------------- BUTTONS ---------------*/
+.btn {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
+
+.btn h2 {
+    padding: 4px 10px;
+    background-color: #F8FE03;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/* -------------------------------------- */
+/* HEADER */
+/* -------------------------------------- */
+
+.index {
+    background-image: linear-gradient(#017d49c5, #017d49c5), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 900px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+}
+
+.hero-text-box ul {
+    list-style: none;
+}
+
+.hero-text-box ul li {
+    float: left;
+    display: block;
+}
+
+.hero-text-box ul li h1 {
+    margin: 0;
+    font-size: 500%;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 90px;
+}
+
+.hero-logo {
+    height: 153px;
+    width: auto;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.logo {
+    align-content: center;
+    height: 80px;
+    width: auto;
+    margin-top: 40px;
+}
+
+.main-nav {
+    float: right;
+    align-content: center;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 29px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 85%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #F8FE03;
+}
+
+/* -------------------------------------- */
+/* SECTIONS */
+/* -------------------------------------- */
+.video-budaya {
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transform: scale(1.8);
+    margin-top: 150px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+}
+
+.section-video {
+    background-color: white;
+}
+
+.tentang-budaya {
+    height: 400px;
+    background-color: #017d49;
+}
+
+.preview-tentang {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.preview-tentang h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: #F8FE03;
+    padding: 4px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.tentang-1,
+.tentang-2 {
+    display: block;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300px;
+    width: 600px;
+}
+
+.tentang-1 {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.tentang-2 {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.budaya-tidur figure img {
+    width: 340px;
+    margin-left: 550px;
+    margin-top: -80px;
+    opacity: 0;
+}
+
+.budaya-berdiri figure img {
+    position: absolute;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: -430px;
+}
+
+.foto-1 figure img,
+.foto-2 figure img,
+.foto-3 figure img,
+.foto-4 figure img,
+.foto-5 figure img,
+.foto-6 figure img {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.foto-4 figure img,
+.foto-5 figure img,
+.foto-6 figure img {
+    margin-top: -5px;
+}
+
+.enamFoto h2 {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* -------------------------------------- */
+/* FOOTER */
+/* -------------------------------------- */
+
+footer {
+    background-color: #017d49;
+    margin-top: 50px;
+    height: 170px;
+}
+
+.footer-nav {
+    text-align: center;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-left: 29px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 85%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #fcff5d;
+}
+
+.footer-nav::after {
+    display: block;
+    height: 2px;
+    background-color: #F8FE03;
+    content: " ";
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-credit {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.footer-credit p {
+    margin: 0 auto;
+    text-align: center;
+    width: max-content;
+    font-size: 15px;
+}

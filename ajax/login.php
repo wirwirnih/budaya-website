@@ -15,7 +15,6 @@
 		$username = Filter::String( $_POST['username'] );
 		$password = $_POST['password'];
 
-		// Make sure the user does not exist. 
 		$findUser = $con->prepare("SELECT user_id, password FROM users WHERE username = :username LIMIT 1");
 		$findUser->bindParam(':username', $username, PDO::PARAM_STR);
 		$findUser->execute();
@@ -29,7 +28,7 @@
 
 			if(password_verify($password, $hash)) {
 				// User is signed in
-				$return['redirect'] = '/dashboard.php';
+				$return['redirect'] = '/';
 
 				$_SESSION['user_id'] = $user_id;
 			} else {

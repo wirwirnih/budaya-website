@@ -7,14 +7,14 @@ function ForceLogin() {
         // the user is allowed here  
     } else {
         // the user is not allowed
-        header("location: /login.php");
+        header("location: /login");
         exit;
     }
 }
 
 function ForceDashboard() {
     if(isset($_SESSION['user_id'])) {
-        header("location: /dashboard.php");
+        header("location: /dashboard");
     } else {
         
     }
