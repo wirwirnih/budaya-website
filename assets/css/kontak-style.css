@@ -191,6 +191,14 @@ p {
     padding-top: 25px;
 }
 
+.map {
+    margin-top: 5px;
+}
+
+.mail {
+    margin-top: 20px;
+}
+
 .detailPhone {
     margin-bottom: 60px;
 }
@@ -327,4 +335,14 @@ footer {
     width: max-content;
     font-size: 15px;
     margin-top: -14px;
+}
+
+.logout {
+    border-radius: 5px;
+}
+
+.logout-btn {
+    background-color: rgba(242, 242, 242, 0.378);
+    padding: 10px 20px;
+    border-radius: 5px;
 }

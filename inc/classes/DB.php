@@ -9,16 +9,19 @@ class DB {
     protected static $con;
 
     private function __construct() {
-
+    
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "user_budaya";
+    
         try {
 
             self::$con = new PDO(
-                'mysql:charset=utf8mb4;
-                host=localhost;
-                port=3306;
-                dbname=user_budaya', 
-                'root', 
-                ''
+                "mysql:host=$servername;
+                dbname=$database", 
+                $username, 
+                $password
             );
             self::$con -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             self::$con -> setAttribute(PDO::ATTR_PERSISTENT, false);

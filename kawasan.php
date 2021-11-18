@@ -18,8 +18,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/assets/css/gedung.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/query-kawasan.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendors/css/normalize.css">
+    <Link rel="stylesheet" type="text/css" href="/assets/vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/gedung.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" type="text/css" href="/assets/css/query-kawasan.css?v=<?php echo time(); ?>">
         
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">

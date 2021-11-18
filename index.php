@@ -16,8 +16,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" type="text/css" href="/assets/css/queries.css?v=<?php echo time(); ?>">
 
         <link rel="stylesheet" type="text/css" href="/assets/vendors/css/normalize.css">
         <Link rel="stylesheet" type="text/css" href="/assets/vendors/css/grid.css">
@@ -71,29 +71,29 @@
                 <h2>Kawasan Budaya</h2>
                 <div class="col foto-1 span-1-of-3">
                     <figure>
-                        <img src="/assets/img/budaya-1.jpg" alt="budaya satu">
+                        <img src="/assets/img/foto-budaya-5.jpg" alt="budaya satu">
                     </figure>
                 </div>
                 <div class="col foto-2 span-1-of-3">
                     <figure>
-                        <img src="/assets/img/budaya-2.jpg" alt="budaya dua">
+                        <img src="/assets/img/budaya-1.jpg" alt="budaya dua">
                     </figure>
                 </div>
                 <div class="col foto-3 span-1-of-3">
                     <figure>
-                        <img src="/assets/img/budaya-3.jpg" alt="budaya tiga">
+                        <img src="/assets/img/budaya-2.jpg" alt="budaya tiga">
                     </figure>
                 </div>
             </div>
             <div class="row barisan-2">
                 <div class="col foto-4 span-1-of-3">
                     <figure>
-                        <img src="/assets/img/budaya-4.jpg" alt="budaya empat">
+                        <img src="/assets/img/budaya-3.jpg" alt="budaya empat">
                     </figure>
                 </div>
                 <div class="col foto-5 span-1-of-3">
                     <figure>
-                        <img src="/assets/img/budaya-5.jpg" alt="budaya lima">
+                        <img src="/assets/img/budaya-4.jpg" alt="budaya lima">
                     </figure>
                 </div>
                 <div class="col foto-6 span-1-of-3">

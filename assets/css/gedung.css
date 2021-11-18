@@ -138,6 +138,10 @@ header {
 /* -------------------------------------- */
 /* SECTIONS */
 /* -------------------------------------- */
+section {
+    overflow: auto;
+}
+
 .container {
     margin: 0;
     padding: 0;
@@ -152,7 +156,7 @@ header {
 .fotoSatu,
 .fotoDua,
 .fotoTiga {
-    height: 320px;
+    height: 318.5px;
 }
 
 .fotoTiga {
@@ -168,9 +172,9 @@ header {
 }
 
 .fotoEnam {
-    height: 500px;
-    margin-left: 150px;
-    margin-right: 151px;
+    height: 450px;
+    margin-left: 170px;
+    margin-right: 171px;
 }
 
 .tulisanSatu,
@@ -179,7 +183,8 @@ header {
     margin: 0;
     justify-content: center;
     text-align: justify;
-    margin: 40px 40px
+    margin: 40px 40px;
+    font-size: 18px;
 }
 
 .tulisanSatu {

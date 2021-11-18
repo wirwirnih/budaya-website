@@ -205,7 +205,7 @@
     }
 }
 
-@media screen and (max-width: 480px) and (min-width: 360px) {
+@media screen and (max-width: 480px) {
     body {
         font-size: 14px;
     }
@@ -296,9 +296,11 @@
     .footer-nav {
         margin-top: 30px;
         display: inline-block;
+        font-size: 18px;
     }
 
     .footer-nav li {
+        margin: 0;
         margin-bottom: 10px;
         display: block;
     }
@@ -308,6 +310,395 @@
     }
 
     footer {
-        height: 200px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 14px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .header-row ul {
+        margin: 0 auto;
+        text-align: center;
+        margin-right: 80px;
+        margin-top: 40px;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    .main-nav {
+        margin-right: 100px;
+    }
+
+    .main-nav li {
+        font-size: 20px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hero-text-box {
+        width: max-content;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 0 auto;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+
+    .sentuh-row h2 {
+        font-size: 30px;
+    }
+
+    .sentuh-row p {
+        font-size: 13px;
+        width: 350px;
+        line-height: 20px;
+    }
+
+    .map-detail {
+        transform: scale(0.7);
+        margin-top: -150px;
+    }
+
+    .ktrngn p,
+    .ktrngn h3 {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ktrngn h3 {
+        font-size: 35px;
+    }
+
+    .ktrngn p {
+        font-size: 25px;
+    }
+
+    .detail-map {
+        display: none
+    }
+
+    .detail-tulisan {
+        margin-top: 100px;
+    }
+
+    .mapNih {
+        width: 397px;
+        margin-left: -20px;
+    }
+
+    .footer-row {
+        padding: 0;
+        width: 250px;
+    }
+
+    .footer-nav {
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .footer-nav li {
+        margin: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .footer-nav::after {
+        width: 250px;
+    }
+
+    footer {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .header-row ul {
+        margin: 0 auto;
+        text-align: center;
+        margin-right: 60px;
+        margin-top: 40px;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    .main-nav {
+        margin-right: 100px;
+    }
+
+    .main-nav li {
+        font-size: 20px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hero-text-box {
+        width: max-content;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin: 0 auto;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+
+    .sentuh-row h2 {
+        font-size: 30px;
+    }
+
+    .sentuh-row p {
+        font-size: 13px;
+        width: 290px;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+
+    .map-detail {
+        transform: scale(0.7);
+        margin-top: -130px;
+    }
+
+    .ktrngn {
+        margin: 0 auto;
+        width: 400px;
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+
+    .ktrngn p,
+    .ktrngn h3 {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ktrngn h3 {
+        font-size: 35px;
+    }
+
+    .ktrngn p {
+        font-size: 25px;
+    }
+
+    .detailMap {
+        margin-left: -30px;
+    }
+
+    .detail-map {
+        display: none
+    }
+
+    .detail-tulisan {
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    .detail-tulisan figure {
+        width: 300px;
+    }
+
+    .mapNih {
+        width: 397px;
+        margin-left: -40px;
+    }
+
+    .footer-row {
+        padding: 0;
+        width: 250px;
+    }
+
+    .footer-nav {
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .footer-nav li {
+        margin: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .footer-nav::after {
+        width: 250px;
+    }
+
+    footer {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    body {
+        font-size: 14px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .header-row ul {
+        margin: 0 auto;
+        text-align: center;
+        margin-right: 40px;
+        margin-top: 40px;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    .main-nav {
+        margin-right: 100px;
+    }
+
+    .main-nav li {
+        font-size: 20px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hero-text-box {
+        width: max-content;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 0 auto;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+
+    .sentuh-row h2 {
+        font-size: 30px;
+    }
+
+    .sentuh-row p {
+        font-size: 13px;
+        width: 240px;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+
+    .map-detail {
+        transform: scale(0.6);
+        margin-top: -150px;
+    }
+
+    .ktrngn {
+        margin: 0 auto;
+        width: 400px;
+        margin-left: -60px;
+        margin-top: 50px;
+    }
+
+    .ktrngn p,
+    .ktrngn h3 {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ktrngn h3 {
+        font-size: 35px;
+    }
+
+    .ktrngn p {
+        font-size: 25px;
+    }
+
+    .detailMap {
+        margin-left: -30px;
+    }
+
+    .detail-map {
+        display: none
+    }
+
+    .detail-tulisan {
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    .detail-tulisan figure {
+        width: 300px;
+    }
+
+    .mapNih {
+        width: 397px;
+        margin-left: -60px;
+    }
+
+    .footer-row {
+        padding: 0;
+        width: 250px;
+    }
+
+    .footer-nav {
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .footer-nav li {
+        margin: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .footer-nav::after {
+        width: 250px;
+    }
+
+    footer {
+        height: 280px;
+    }
+
+    .footer-credit p {
+        font-size: 12px;
     }
 }

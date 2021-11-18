@@ -101,7 +101,7 @@
             <ul class="footer-nav">
                 <li><a href="/">Home</a></li>
                 <li><a href="/tentang">Tentang Budaya</a></li>
-                <li><a href="/kawasanp">Kawasan Budaya</a></li>
+                <li><a href="/kawasan">Kawasan Budaya</a></li>
                 <li><a href="/kontak">Kontak Budaya</a></li>
             </ul>
         </div>

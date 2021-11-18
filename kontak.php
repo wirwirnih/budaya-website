@@ -19,8 +19,8 @@
     <link rel="stylesheet" type="text/css" href="/assets/vendors/css/normalize.css">
     <Link rel="stylesheet" type="text/css" href="/assets/vendors/css/grid.css">
     <Link rel="stylesheet" type="text/css" href="/assets/vendors/css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/kontak-style.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/kontak-queries.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/kontak-style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" type="text/css" href="/assets/css/kontak-queries.css?v=<?php echo time(); ?>">
 
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -64,9 +64,9 @@
                     <li class="mailDetail">
                         <ion-icon class="map" name="map-sharp"></ion-icon>
                     </li>
-                    <li class="phoneDetail">
+                    <!-- <li class="phoneDetail">
                         <ion-icon class="phone" name="call-sharp"></ion-icon>
-                    </li>
+                    </li> -->
                     <li class="mailDetail">
                         <ion-icon class="mail" name="mail-sharp"></ion-icon>
                     </li>
@@ -75,8 +75,8 @@
             <div class="col ktrngn span-1-of-3">
                 <h3 class="officeTulis">Office</h3>
                 <p class="detailMap">JL. Dermaga Baru No.26<br> Klender, Duren Sawit, Jakarta Timur</p>
-                <h3 class="phoneTulis">Phone</h3>
-                <p class="detailPhone">(022) 860 079 1</p>
+                <!-- <h3 class="phoneTulis">Phone</h3>
+                <p class="detailPhone">(022) 860 079 1</p> -->
                 <h3 class="mailTulis">Mail</h3>
                 <p class="detailMail">contact@emailbudaya.com</p>
             </div>
@@ -97,6 +97,7 @@
                 <li><a href="/tentang">Tentang Budaya</a></li>
                 <li><a href="/kawasan">Kawasan Budaya</a></li>
                 <li><a href="/kontak">Kontak Budaya</a></li>
+                <li class="logout-btn"><a class="logout" href="/logout">Logout</a></li>
             </ul>
         </div>
         <div class="row footer-credit">

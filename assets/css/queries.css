@@ -111,32 +111,36 @@
         padding: 0 6%;
     }
 
+    .hero-text-box {
+        margin-left: -65px;
+    }
+
     h1 {
-        padding-left: 35px;
+        padding-left: -65px;
     }
 
     .hero-logo {
         margin: 0 auto;
         display: block;
-        margin-left: 160px;
+        margin-left: 180px;
     }
 
     .hero-text-box h3 {
         margin: 0 auto;
-        margin-left: 162px;
-    }
-
-    body {
-        font-size: 12px;
+        margin-left: 155px;
+        font-size: 16px;
     }
 
     .video-budaya {
         width: 190px;
+        margin: 0 auto;
+        margin-top: 10px;
     }
 
     .section-video {
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin: 0 auto;
+        padding: 0;
+        height: 300px;
     }
 
     .tentang-1,
@@ -150,6 +154,7 @@
 
     .tentang-budaya {
         height: 500px;
+        margin-top: -40px;
     }
 
     .foto-1,
@@ -192,7 +197,434 @@
 
     .footer-nav li {
         font-size: 20px;
-        margin-bottom: 15px;
+        margin: 15px auto;
         display: block;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .hero-text-box,
+    .row {
+        padding: 0 6%;
+    }
+
+    .hero-text-box {
+        margin-left: -85px;
+    }
+
+    h1 {
+        padding-left: -65px;
+    }
+
+    .hero-logo {
+        margin: 0 auto;
+        display: block;
+        margin-left: 180px;
+    }
+
+    .hero-text-box h3 {
+        margin: 0 auto;
+        margin-left: 155px;
+        font-size: 16px;
+    }
+
+    .video-budaya {
+        width: 190px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .section-video {
+        margin: 0 auto;
+        padding: 0;
+        height: 300px;
+    }
+
+    .tentang-1,
+    .tentang-2 {
+        transform: scale(0.8);
+    }
+
+    .tentang-1 {
+        font-size: 20px;
+    }
+
+    .tentang-budaya {
+        height: 500px;
+        margin-top: -40px;
+    }
+
+    .foto-1,
+    .foto-2,
+    .foto-3,
+    .foto-4,
+    .foto-5,
+    .foto-6 {
+        padding-bottom: 20px;
+        padding-right: 15px;
+    }
+
+    .btn {
+        transform: scale(0.85);
+        border-radius: 4px;
+    }
+
+    .btn h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 260px;
+        margin-top: 0;
+    }
+
+    .footer-row {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer-nav {
+        margin-top: 30px;
+    }
+
+    .footer-nav::after {
+        width: 300px;
+    }
+
+    .footer-nav li {
+        font-size: 20px;
+        margin: 15px auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .hero-text-box,
+    .row {
+        padding: 0 6%;
+    }
+
+    .hero-text-box {
+        margin-left: -100px;
+    }
+
+    .hero-logo {
+        margin: 0 auto;
+        display: block;
+        margin-left: 185px;
+    }
+
+    .hero-text-box h3 {
+        margin: 0 auto;
+        margin-left: 152px;
+        font-size: 16px;
+    }
+
+    .hero-text li h1 {
+        margin-left: -30px;
+        padding: 0;
+    }
+
+    .video-budaya {
+        width: 200px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .section-video {
+        padding: 0;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .tentang-1,
+    .tentang-2 {
+        transform: scale(0.8);
+    }
+
+    .tentang-1 {
+        font-size: 20px;
+    }
+
+    .tentang-budaya {
+        height: 500px;
+    }
+
+    .foto-1,
+    .foto-2,
+    .foto-3,
+    .foto-4,
+    .foto-5,
+    .foto-6 {
+        padding-bottom: 20px;
+        padding-right: 35px;
+    }
+
+    .btn {
+        transform: scale(0.85);
+        border-radius: 4px;
+    }
+
+    .btn h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 260px;
+        margin-top: 0;
+    }
+
+    .footer-row {
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+    }
+
+    .footer-nav {
+        margin-top: 30px;
+    }
+
+    .footer-nav::after {
+        width: 300px;
+    }
+
+    .footer-nav li {
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-left: 0;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .hero-text-box,
+    .row {
+        padding: 0 6%;
+    }
+
+    .hero-text-box {
+        margin-left: -65px;
+    }
+
+    .hero-logo {
+        margin: 0 auto;
+        display: block;
+        margin-left: 140px;
+    }
+
+    .hero-text-box h3 {
+        margin: 0 auto;
+        margin-left: 135px;
+        font-size: 12px;
+    }
+
+    .hero-text-box ul li h1 {
+        font-size: 70px;
+        margin-left: -20px;
+    }
+
+    .video-budaya {
+        width: 170px;
+        margin: 0 auto;
+        margin-top: -20px;
+    }
+
+    .section-video {
+        margin: 0 auto;
+        padding: 0;
+        height: 300px;
+    }
+
+    .tentang-1,
+    .tentang-2 {
+        transform: scale(0.8);
+    }
+
+    .tentang-1 {
+        font-size: 20px;
+    }
+
+    .tentang-budaya {
+        height: 500px;
+        margin-top: -40px;
+    }
+
+    .foto-1,
+    .foto-2,
+    .foto-3,
+    .foto-4,
+    .foto-5,
+    .foto-6 {
+        padding-bottom: 20px;
+        padding-right: 15px;
+    }
+
+    .btn {
+        transform: scale(0.85);
+        border-radius: 4px;
+    }
+
+    .btn h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 260px;
+        margin-top: 0;
+    }
+
+    .footer-row {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer-nav {
+        margin-top: 30px;
+    }
+
+    .footer-nav::after {
+        width: 280px;
+    }
+
+    .footer-nav li {
+        font-size: 20px;
+        margin: 15px auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .hero-text-box,
+    .row {
+        padding: 0 6%;
+    }
+
+    .hero-text-box {
+        margin-left: -50px;
+    }
+
+    .hero-logo {
+        margin: 0 auto;
+        display: block;
+        margin-left: 100px;
+    }
+
+    .hero-text-box h3 {
+        width: 150px;
+        margin: 0 auto;
+        margin-left: 82px;
+        font-size: 16px;
+    }
+
+    .hero-text-box ul li h1 {
+        font-size: 60px;
+    }
+
+    .hero-text li h1 {
+        margin-left: -30px;
+        padding: 0;
+    }
+
+    .video-budaya {
+        width: 150px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .section-video {
+        padding: 0;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .preview-tentang p {
+        width: 260px;
+    }
+
+    .preview-tentang a h2 {
+        margin-top: 0;
+    }
+
+    .tentang-1,
+    .tentang-2 {
+        margin: 0 auto;
+    }
+
+    .tentang-1 {
+        font-size: 20px;
+    }
+
+    .tentang-budaya {
+        height: 500px;
+    }
+
+    .foto-1,
+    .foto-2,
+    .foto-3,
+    .foto-4,
+    .foto-5,
+    .foto-6 {
+        padding-bottom: 20px;
+        padding-right: 35px;
+    }
+
+    .btn {
+        transform: scale(0.85);
+        border-radius: 4px;
+    }
+
+    .btn h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 260px;
+        margin-top: 0;
+    }
+
+    .footer-row {
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+    }
+
+    .footer-nav {
+        margin-top: 30px;
+    }
+
+    .footer-nav::after {
+        width: 260px;
+    }
+
+    .footer-nav li {
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-left: 0;
+        display: block;
+    }
+
+    .footer-credit p {
+        margin-left: -15px;
     }
 }
